@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основы WEB-дизайна | Проектное задание</title>
+    <link rel="stylesheet" href="PZ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Верхняя часть сайта -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="main-title">
+                <i class="fas fa-palette"></i> Основы WEB-дизайна
+            </h1>
+            <p class="subtitle">Учебный ресурс по веб-дизайну, UX/UI и дизайн-мышлению</p>
+        </div>
+    </header>
+
+    <!-- Меню -->
+    <nav class="main-menu">
+        <div class="container">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#intro"><i class="fas fa-home"></i> Введение</a></li>
+                <li class="menu-item"><a href="#history"><i class="fas fa-history"></i> История</a></li>
+                <li class="menu-item"><a href="#basics"><i class="fas fa-cube"></i> Основы</a></li>
+                <li class="menu-item"><a href="#ux-ui"><i class="fas fa-user-circle"></i> UX/UI</a></li>
+                <li class="menu-item"><a href="#colors"><i class="fas fa-fill-drip"></i> Цвета</a></li>
+                <li class="menu-item"><a href="#types"><i class="fas fa-laptop"></i> Типы сайтов</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Основная часть -->
+    <main class="container">
+        <!-- Введение в тему -->
+        <section id="intro" class="content-block">
+            <h2 class="section-title"><i class="fas fa-star"></i> Что такое Web-дизайн?</h2>
+            <p class="section-text">Web-дизайн — это графический дизайн, перенесённый в интерактивную среду. Главная цель — помочь пользователю быстро и интуитивно сориентироваться на сайте.</p>
+            <div class="important-note">
+                <p><strong>Цель интерактивного Web-дизайна:</strong> сделать сайт полезным, визуально приятным, простым и понятным в использовании.</p>
+            </div>
+        </section>
+
+        <!-- История Интернета -->
+        <section id="history" class="content-block">
+            <h2 class="section-title"><i class="fas fa-globe"></i> История Интернета и WWW</h2>
+            <div class="history-timeline">
+                <div class="timeline-event">
+                    <div class="event-year">1992</div>
+                    <div class="event-content">
+                        <h3 class="event-title">Появление Всемирной паутины</h3>
+                        <p class="event-text">Создана Тимом Бернерсом-Ли из Европейского центра ядерных исследований (CERN)</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="event-year">1984</div>
+                    <div class="event-content">
+                        <h3 class="event-title">ARPANET</h3>
+                        <p class="event-text">Сеть включала 1000 компьютеров, стала инструментом для научных исследований</p>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="event-year">1995</div>
+                    <div class="event-content">
+                        <h3 class="event-title">10 млн компьютеров</h3>
+                        <p class="event-text">Интернет распространился за пределы академического мира, стал важным информационным источником</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основы композиции -->
+        <section id="basics" class="content-block">
+            <h2 class="section-title"><i class="fas fa-shapes"></i> Основы композиции для Web</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3 class="feature-title">Равновесие</h3>
+                    <p class="feature-text">Состояние формы, при котором все элементы сбалансированы между собой</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+                    <h3 class="feature-title">Симметрия</h3>
+                    <p class="feature-text">Строгость, спокойствие, классицизм, сила. Соответствует "важным" формам</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-random"></i></div>
+                    <h3 class="feature-title">Асимметрия</h3>
+                    <p class="feature-text">Движение, динамизм, жизнь, свобода, выразительность</p>
+                </div>
+            </div>
+            
+            <h3 class="subsection-title">Важные параметры оценки web-проекта:</h3>
+            <ol class="evaluation-list">
+                <li class="evaluation-item"><i class="fas fa-check-circle"></i> Скорость загрузки</li>
+                <li class="evaluation-item"><i class="fas fa-check-circle"></i> Уровень дизайна</li>
+                <li class="evaluation-item"><i class="fas fa-check-circle"></i> Эргономика</li>
+                <li class="evaluation-item"><i class="fas fa-check-circle"></i> Посещаемость</li>
+                <li class="evaluation-item"><i class="fas fa-check-circle"></i> Уровень контента</li>
+            </ol>
+        </section>
+
+        <!-- UX/UI дизайн -->
+        <section id="ux-ui" class="content-block">
+            <h2 class="section-title"><i class="fas fa-mobile-alt"></i> UX/UI дизайн и дизайн-мышление</h2>
+            
+            <div class="ux-ui-comparison">
+                <div class="ux-card">
+                    <h3 class="card-title"><i class="fas fa-user-check"></i> UX-дизайн</h3>
+                    <p class="card-text">User Experience — "пользовательский опыт". Отвечает за то, как интерфейс работает.</p>
+                    <ul class="card-list">
+                        <li class="list-item">Исследование пользователей</li>
+                        <li class="list-item">Прототипирование</li>
+                        <li class="list-item">Тестирование удобства</li>
+                    </ul>
+                </div>
+                
+                <div class="ui-card">
+                    <h3 class="card-title"><i class="fas fa-eye"></i> UI-дизайн</h3>
+                    <p class="card-text">User Interface — "пользовательский интерфейс". Отвечает за то, как интерфейс выглядит.</p>
+                    <ul class="card-list">
+                        <li class="list-item">Визуальный дизайн</li>
+                        <li class="list-item">Цветовая схема</li>
+                        <li class="list-item">Типографика</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3 class="subsection-title">Этапы дизайн-мышления:</h3>
+            <div class="design-thinking-steps">
+                <div class="thinking-step">
+                    <div class="step-number">1</div>
+                    <h4 class="step-title">Эмпатия</h4>
+                    <p class="step-text">Понять пользователя, его потребности и проблемы</p>
+                </div>
+                <div class="thinking-step">
+                    <div class="step-number">2</div>
+                    <h4 class="step-title">Фокусировка</h4>
+                    <p class="step-text">Определить ключевую проблему для решения</p>
+                </div>
+                <div class="thinking-step">
+                    <div class="step-number">3</div>
+                    <h4 class="step-title">Идеи</h4>
+                    <p class="step-text">Генерация множества решений</p>
+                </div>
+                <div class="thinking-step">
+                    <div class="step-number">4</div>
+                    <h4 class="step-title">Прототип</h4>
+                    <p class="step-text">Создание модели для тестирования</p>
+                </div>
+                <div class="thinking-step">
+                    <div class="step-number">5</div>
+                    <h4 class="step-title">Тест</h4>
+                    <p class="step-text">Проверка решения с пользователями</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Цвета в дизайне -->
+        <section id="colors" class="content-block">
+            <h2 class="section-title"><i class="fas fa-palette"></i> Цвета в Web-дизайне</h2>
+            
+            <div class="color-examples">
+                <div class="color-example" style="background-color: #ff6b6b;">
+                    <h3 class="color-name">Красный</h3>
+                    <p class="color-description">Энергия, страсть, опасность</p>
+                </div>
+                <div class="color-example" style="background-color: #4ecdc4;">
+                    <h3 class="color-name">Бирюзовый</h3>
+                    <p class="color-description">Спокойствие, чистота, технологии</p>
+                </div>
+                <div class="color-example" style="background-color: #ffe66d;">
+                    <h3 class="color-name">Жёлтый</h3>
+                    <p class="color-description">Радость, оптимизм, внимание</p>
+                </div>
+                <div class="color-example" style="background-color: #95e1d3;">
+                    <h3 class="color-name">Зелёный</h3>
+                    <p class="color-description">Природа, рост, гармония</p>
+                </div>
+                <div class="color-example" style="background-color: #ff9a76;">
+                    <h3 class="color-name">Оранжевый</h3>
+                    <p class="color-description">Энергия, тепло, энтузиазм</p>
+                </div>
+                <div class="color-example" style="background-color: #a8d8ea;">
+                    <h3 class="color-name">Голубой</h3>
+                    <p class="color-description">Мир, доверие, стабильность</p>
+                </div>
+            </div>
+            
+            <div class="color-tips">
+                <h3 class="tips-title"><i class="fas fa-lightbulb"></i> Советы по работе с цветом:</h3>
+                <ul class="tips-list">
+                    <li class="tip-item">Используйте 3-4 основных цвета на сайте</li>
+                    <li class="tip-item">Текст должен контрастировать с фоном</li>
+                    <li class="tip-item">Учитывайте цветовые ассоциации</li>
+                    <li class="tip-item">Проверяйте сочетаемость цветов</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Типы сайтов -->
+        <section id="types" class="content-block">
+            <h2 class="section-title"><i class="fas fa-sitemap"></i> Типы сайтов</h2>
+            
+            <div class="website-types">
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-building"></i> Корпоративный сайт</h3>
+                    <p class="type-description">Официальное представительство компании в Интернете</p>
+                </div>
+                
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-shopping-cart"></i> Интернет-магазин</h3>
+                    <p class="type-description">Продажа товаров онлайн, автоматизация бизнес-процессов</p>
+                </div>
+                
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-info-circle"></i> Информационный сайт</h3>
+                    <p class="type-description">Предоставление специализированной информации</p>
+                </div>
+                
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-portrait"></i> Промо-сайт</h3>
+                    <p class="type-description">Продвижение конкретного товара или услуги</p>
+                </div>
+                
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-newspaper"></i> Портал</h3>
+                    <p class="type-description">Множество сервисов: новости, почта, поиск</p>
+                </div>
+                
+                <div class="website-type">
+                    <h3 class="type-title"><i class="fas fa-user"></i> Личный сайт</h3>
+                    <p class="type-description">Визитная карточка, хобби, портфолио</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Этапы работы -->
+        <section class="content-block">
+            <h2 class="section-title"><i class="fas fa-tasks"></i> Этапы работы над web-проектом</h2>
+            
+            <div class="project-steps">
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">1</span> Планирование</h3>
+                    <p class="step-description">Разработка структуры проекта, системы навигации</p>
+                </div>
+                
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">2</span> Дизайн</h3>
+                    <p class="step-description">Создание дизайн-макета, прототипа интерфейса</p>
+                </div>
+                
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">3</span> Вёрстка</h3>
+                    <p class="step-description">Превращение макета в HTML/CSS код</p>
+                </div>
+                
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">4</span> Программирование</h3>
+                    <p class="step-description">Добавление функциональности (JavaScript, PHP и др.)</p>
+                </div>
+                
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">5</span> Тестирование</h3>
+                    <p class="step-description">Проверка работы на разных устройствах и браузерах</p>
+                </div>
+                
+                <div class="project-step">
+                    <h3 class="step-title"><span class="step-icon">6</span> Запуск</h3>
+                    <p class="step-description">Размещение сайта на хостинге, наполнение контентом</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ключевые правила -->
+        <section class="content-block rules-block">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> 4 правила профессионального дизайна</h2>
+            
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <h3 class="rule-title"><i class="fas fa-search"></i> Детали</h3>
+                    <p class="rule-text">Добавляйте мелкие детали в элементы дизайна, визуально разбивайте крупные объекты</p>
+                </div>
+                
+                <div class="rule-card">
+                    <h3 class="rule-title"><i class="fas fa-expand-alt"></i> Внимание к мелочам</h3>
+                    <p class="rule-text">Продумывайте каждый элемент до конца, следите за сочетаемостью</p>
+                </div>
+                
+                <div class="rule-card">
+                    <h3 class="rule-title"><i class="fas fa-blender"></i> Гармония цветов</h3>
+                    <p class="rule-text">Сочетание цветов должно быть комфортным для чтения и восприятия</p>
+                </div>
+                
+                <div class="rule-card">
+                    <h3 class="rule-title"><i class="fas fa-font"></i> Гармония шрифтов</h3>
+                    <p class="rule-text">Используйте 1-2 шрифта на сайте, избегайте декоративных гарнитур</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  <!-- Нижняя часть -->
+<footer class="site-footer">
+    <div class="container">
+        <h3 class="footer-title">Основы WEB-дизайна</h3>
+        <p class="footer-subtitle">Проектное задание</p>
+        
+        <div class="footer-info">
+            <!-- Разработчик -->
+            <div class="footer-section">
+                <h4><i class="fas fa-user-cog"></i> Разработчик сайта</h4>
+                <p>Окунев Данил Евгеньевич</p>
+                <p>Студент 4 курса Комсомольского-на-Амуре университета</p>
+                <p>Группа: 2ИТб-2</p>
+                <p><i class="fab fa-github"></i> GitHub: 
+                    <a href="https://github.com/ellqthh/---" target="_blank" class="github-link">
+                        github.com/ellqthh
+                    </a>
+                </p>
+            </div>
+            
+            <!-- Материалы -->
+            <div class="footer-section">
+                <h4><i class="fas fa-book-open"></i> Учебные материалы</h4>
+                <p>WEB дизайн.pdf</p>
+                <p>Дизайн.pptx (Абарникова Е.Б.)</p>
+                <p><em>Использованы для создания контента</em></p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">© 2023 Веб-ресурс создан в рамках учебного проекта</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="PZ.js"></script>
+</body>
+</html>
